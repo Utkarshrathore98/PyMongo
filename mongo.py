@@ -37,5 +37,5 @@ many_data = [
 app_col.insert_many(many_data)
 
 # Drop a database
-client.drop_database(app_db)
-print(f'The database {app_db} has been removed')
+# client.drop_database(app_db)
+# print(f'The database {app_db} has been removed')
