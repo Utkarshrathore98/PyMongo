@@ -36,6 +36,10 @@ many_data = [
 # Inserting many data to the collection 
 app_col.insert_many(many_data)
 
+# Querying for more than one document
+for post in app_col.find():
+    print(post)
+
 # Drop a database
 # client.drop_database(app_db)
 # print(f'The database {app_db} has been removed')
